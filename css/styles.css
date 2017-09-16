@@ -195,3 +195,37 @@ figure {
 .about > p {
   margin: 0;
 }
+
+@media screen and (min-width: 768px) {
+
+
+  .site-nav{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+  }
+
+  nav.site-nav {
+      display: block;
+      width: 10%;
+      height: 100%;
+  }
+
+  ul.site-nav-list {}
+
+  li.site-nav-item {
+      display: block;
+      margin: 20px;
+  }
+
+  ul.site-nav-list {
+  }
+
+  span.site-nav-item-label {}
+
+  i.fa.fa-video-camera {
+      /* display: block; */
+  }
+
+}
