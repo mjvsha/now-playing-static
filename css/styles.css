@@ -199,17 +199,13 @@ figure {
 @media screen and (min-width: 768px) {
 
 
-  .site-nav{
-    position: fixed;
-    right: 0;
-    bottom: 0;
 
-  }
 
   nav.site-nav {
       display: block;
       width: 10%;
       height: 100%;
+      position: fixed;
   }
 
   ul.site-nav-list {}
@@ -228,4 +224,19 @@ figure {
       /* display: block; */
   }
 
+  .movie-overview {
+    display: block;
+  }
+
+  .site-logo {
+    z-index: 200;
+    width: 60px;
+    height: 60px;
+    left: 0.75rem;
+  }
+
+  main {
+    padding-left: 70px; 
+  }
+  }
 }
