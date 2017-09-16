@@ -203,26 +203,19 @@ figure {
 
   nav.site-nav {
       display: block;
-      width: 10%;
+      width: 80px;
       height: 100%;
-      position: fixed;
+      z-index: 150;
+      position: fixed; /* do i need this? */
   }
 
-  ul.site-nav-list {}
+
 
   li.site-nav-item {
       display: block;
       margin: 20px;
   }
 
-  ul.site-nav-list {
-  }
-
-  span.site-nav-item-label {}
-
-  i.fa.fa-video-camera {
-      /* display: block; */
-  }
 
   .movie-overview {
     display: block;
@@ -236,7 +229,43 @@ figure {
   }
 
   main {
-    padding-left: 70px; 
+    padding-left: 90px;
   }
-  }
+
+
+  section.about {
+    display: inline-block;
+}
+
+nav.footer-nav {
+    display: inline-block;
+}
+
+footer.site-footer {
+    background-color: black;
+    color: white;
+}
+
+section.about {
+    float: right;
+    ht; */
+    /* position: fixed; */
+    display:;
+    background-color: #333333;
+}
+
+footer.site-footer {
+    overflow: auto;
+}
+
+ul.site-nav-list {
+    padding-top: 65px;
+
+}
+
+}
+
+@media screen and (min-width: 992px)
+{
+
 }
