@@ -266,6 +266,37 @@ ul.site-nav-list {
 }
 
 @media screen and (min-width: 992px)
+
 {
+
+
+  article.movie {
+
+      float: left;
+      width: 33%;
+  }
+
+  main {
+      overflow: auto;
+  }
+
+  .movie-overview {
+      display: none;
+  }
+
+  .movie-backdrop {
+      display: none;
+  }
+
+  .movie-poster {
+      display: inline-block;
+  }
+
+  main: first-child {
+    
+
+  }
+
+  }
 
 }
