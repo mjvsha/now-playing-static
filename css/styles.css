@@ -292,11 +292,37 @@ ul.site-nav-list {
       display: inline-block;
   }
 
+/*
   main: first-child {
-    
+    .movie-overview {
+      display: block;
+    }  */
 
+
+    .media-effect img.movie-poster {
+      display: none;
   }
 
+  .media-effect img.movie-backdrop {
+      display: block;
+      width: 100%;
   }
+
+
+
+article.movie.dr-strange {
+    display: block;
+    width: 100%;
+}
+
+
+.media-effect img.movie-poster {
+    display: none;
+}
+
+.dr-strange img.movie-backdrop {
+    display: block;
+    width: 100%;
+}
 
 }
