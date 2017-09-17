@@ -273,7 +273,7 @@ ul.site-nav-list {
   article.movie {
 
       float: left;
-      width: 33%;
+      width: 33.33%;
   }
 
   main {
@@ -292,11 +292,7 @@ ul.site-nav-list {
       display: inline-block;
   }
 
-/*
-  main: first-child {
-    .movie-overview {
-      display: block;
-    }  */
+
 
 
   article.movie: first-child img.movie-poster {
