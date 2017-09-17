@@ -321,4 +321,7 @@ article.movie: first-child img.movie-backdrop {
     width: 100%;
 }
 
+article.movie:first-child p.movie-overview {
+  display: block;
+}
 }
