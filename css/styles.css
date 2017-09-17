@@ -299,28 +299,28 @@ ul.site-nav-list {
     }  */
 
 
-    .media-effect img.movie-poster {
+  article.movie: first-child img.movie-poster {
       display: none;
   }
 
-  .media-effect img.movie-backdrop {
+  article.movie:first-child img.movie-backdrop {
       display: block;
       width: 100%;
   }
 
 
 
-article.movie.dr-strange {
+article.movie:first-child {
     display: block;
     width: 100%;
 }
 
 
-.media-effect img.movie-poster {
+article.movie:first-child img.movie-poster {
     display: none;
 }
 
-.dr-strange img.movie-backdrop {
+article.movie: first-child img.movie-backdrop {
     display: block;
     width: 100%;
 }
