@@ -214,6 +214,9 @@ figure {
   li.site-nav-item {
       display: block;
       margin: 20px;
+      width: 100%;
+      margin: 20px auto; 
+
   }
 
 
@@ -324,4 +327,6 @@ article.movie: first-child img.movie-backdrop {
 article.movie:first-child p.movie-overview {
   display: block;
 }
+
+
 }
